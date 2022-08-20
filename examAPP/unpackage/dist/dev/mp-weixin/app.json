@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index5/index",
+    "pages/index2/index",
+    "pages/index2/messageDetails",
+    "pages/index3/index",
+    "pages/index4/index",
+    "pages/index5/myMedical/myMedical",
+    "pages/index5/myMedical/TiKu",
+    "pages/index5/myMedical/TiKuXiangQing",
+    "pages/index3/index2"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#49cfeb",
+    "backgroundColor": "#49cfeb"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#0faeff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/cd.png",
+        "selectedIconPath": "static/cd-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index2/index",
+        "iconPath": "static/new.png",
+        "selectedIconPath": "static/newHL.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/index3/index",
+        "iconPath": "static/answer.png",
+        "selectedIconPath": "static/answer-select.png",
+        "text": "刷题"
+      },
+      {
+        "pagePath": "pages/index4/index",
+        "iconPath": "static/grow.png",
+        "selectedIconPath": "static/grow-selected.png",
+        "text": "娱乐"
+      },
+      {
+        "pagePath": "pages/index5/index",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my-select.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

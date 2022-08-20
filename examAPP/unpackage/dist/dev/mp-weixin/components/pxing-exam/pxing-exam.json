@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-popup": "/components/pxing-exam/uni-popup/uni-popup",
+    "uni-icons": "/components/pxing-exam/uni-icons/uni-icons",
+    "u-parse": "/components/pxing-exam/u-parse/u-parse",
+    "uni-popup-message": "/components/pxing-exam/uni-popup/uni-popup-message",
+    "uni-popup-dialog": "/components/pxing-exam/uni-popup/uni-popup-dialog"
+  }
+}

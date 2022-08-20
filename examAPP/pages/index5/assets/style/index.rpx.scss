@@ -1,0 +1,340 @@
+.page {
+  position: relative;
+  width: 750rpx;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  .layer1 {
+    width: 750rpx;
+    .outer1 {
+      z-index: 13;
+      height: 380rpx;
+      // border-radius: 1px 1px 61px 61px;
+      overflow: hidden;
+      // background: url(/static/lanhu_wode/SketchPngb44ab3edf083c4191377716b829cbafc87983e7e9fdee194af69e97d4f7e5a06.png)
+      //   100% no-repeat;
+      width: 750rpx;
+      position: relative;
+      .group1 {
+        width: 692rpx;
+        height: 36rpx;
+        margin: 5rpx 0 0 29rpx;
+        .word1 {
+          width: 67rpx;
+          height: 36rpx;
+          display: block;
+          overflow-wrap: break-word;
+          color: rgba(255, 255, 255, 1);
+          font-size: 32rpx;
+          font-family: PingFangSC-Medium;
+          white-space: nowrap;
+          line-height: 36rpx;
+          text-align: left;
+        }
+      }
+      .group2 {
+        width: 691rpx;
+        height: 53rpx;
+        margin: 18rpx 0 40rpx 30rpx;
+		z-index: 26;
+        .word2 {
+          width: 144rpx;
+          height: 36rpx;
+          display: block;
+          overflow-wrap: break-word;
+          color: rgba(255, 255, 255, 1);
+          font-size: 36rpx;
+          font-family: PingFangSC-Medium;
+          white-space: nowrap;
+          line-height: 206rpx;
+          text-align: left;
+          margin-top: 9rpx;
+        }
+        .main1 {
+          z-index: 24;
+          height: 53rpx;
+          border-radius: 26.5px 26.5px 26.5px 26.5px;
+          background-color: rgba(255, 255, 255, 0.55);
+          width: 155rpx;
+          position: relative;
+          padding: 11rpx 0 0 75rpx;
+          .pic1 {
+            z-index: 26;
+            position: absolute;
+            left: 26rpx;
+            top: 0;
+            width: 106rpx;
+            height: 43rpx;
+          }
+        }
+      }
+      .group3 {
+        width: 328rpx;
+        height: 120rpx;
+        margin: 110rpx 0 75rpx 30rpx;
+		z-index: 26;
+        .outer2 {
+          width: 120rpx;
+          height: 120rpx;
+          border-radius: 12px;
+          background-color: rgba(255, 255, 255, 1);
+        }
+		.outer2 .image{
+		  width: 120rpx;
+		  height: 120rpx;
+		  border-radius: 12px;
+		}
+        .outer3 {
+          width: 178rpx;
+          height: 85rpx;
+          margin-top: 11rpx;
+          .word3 {
+            width: 178rpx;
+            height: 40rpx;
+            display: block;
+            overflow-wrap: break-word;
+            color: rgba(255, 255, 255, 1);
+            font-size: 34rpx;
+            font-family: PingFangSC-Semibold;
+            white-space: nowrap;
+            line-height: 40rpx;
+            text-align: left;
+          } .word4 {
+            width: 178rpx;
+            height: 40rpx;
+            display: block;
+            overflow-wrap: break-word;
+            color: rgba(255, 255, 255, 1);
+            font-size: 23rpx;
+            font-family: PingFangSC-Semibold;
+            white-space: nowrap;
+            line-height: 40rpx;
+            text-align: left;
+          }
+          .box1 {
+            width: 86rpx;
+            height: 36rpx;
+            margin-top: 9rpx;
+            .txt1 {
+              width: 62rpx;
+              height: 36rpx;
+              display: block;
+              overflow-wrap: break-word;
+              color: rgba(255, 255, 255, 1);
+              font-size: 28rpx;
+              letter-spacing: 1px;
+              white-space: nowrap;
+              line-height: 36rpx;
+              text-align: left;
+            }
+            .icon1 {
+              width: 13rpx;
+              height: 20rpx;
+              margin-top: 9rpx;
+            }
+          }
+        }
+      }
+      .img1 {
+        z-index: 14;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 750rpx;
+        height: 380rpx;
+      }
+    }
+    .outer4 {
+      width: 689rpx;
+      height: 35rpx;
+      margin: 74rpx 0 0 31rpx;
+     .label1 {
+       width: 38rpx;
+       height: 42rpx;
+     }
+      .word4 {
+        width: 130rpx;
+        height: 32rpx;
+        display: block;
+        overflow-wrap: break-word;
+        color: rgba(29, 29, 29, 1);
+        font-size: 32rpx;
+        font-family: PingFangSC-Medium;
+        white-space: nowrap;
+        line-height: 32rpx;
+        text-align: left;
+        margin-left: 40rpx;
+      }
+      .icon2 {
+        width: 13rpx;
+        height: 20rpx;
+        margin: 6rpx 0 0 467rpx;
+      }
+    }
+    .outer5 {
+      width: 689rpx;
+      height: 42rpx;
+      margin: 78rpx 0 0 31rpx;
+      .label1 {
+        width: 38rpx;
+        height: 42rpx;
+      }
+      .info1 {
+        width: 130rpx;
+        height: 32rpx;
+        display: block;
+        overflow-wrap: break-word;
+        color: rgba(29, 29, 29, 1);
+        font-size: 32rpx;
+        font-family: PingFangSC-Medium;
+        white-space: nowrap;
+        line-height: 32rpx;
+        text-align: left;
+        margin: 6rpx 0 0 41rpx;
+      }
+      .icon3 {
+        width: 13rpx;
+        height: 20rpx;
+        margin: 12rpx 0 0 467rpx;
+      }
+    }
+    .outer6 {
+      width: 688rpx;
+      height: 39rpx;
+      margin: 80rpx 0 0 32rpx;
+      .icon4 {
+        width: 38rpx;
+        height: 39rpx;
+      }
+      .txt2 {
+        width: 130rpx;
+        height: 32rpx;
+        display: block;
+        overflow-wrap: break-word;
+        color: rgba(29, 29, 29, 1);
+        font-size: 32rpx;
+        font-family: PingFangSC-Medium;
+        white-space: nowrap;
+        line-height: 32rpx;
+        text-align: left;
+        margin: 3rpx 0 0 40rpx;
+      }
+      .icon5 {
+        width: 13rpx;
+        height: 20rpx;
+        margin: 9rpx 0 0 467rpx;
+      }
+    }
+    .outer7 {
+      width: 689rpx;
+      height: 36rpx;
+      margin: 80rpx 0 0 31rpx;
+      .label2 {
+        width: 38rpx;
+        height: 36rpx;
+      }
+      .info2 {
+        width: 130rpx;
+        height: 32rpx;
+        display: block;
+        overflow-wrap: break-word;
+        color: rgba(29, 29, 29, 1);
+        font-size: 32rpx;
+        font-family: PingFangSC-Medium;
+        white-space: nowrap;
+        line-height: 32rpx;
+        text-align: left;
+        margin: 3rpx 0 0 41rpx;
+      }
+      .icon6 {
+        width: 13rpx;
+        height: 20rpx;
+        margin: 9rpx 0 0 467rpx;
+      }
+    }
+    .outer8 {
+      height: 88rpx;
+      background-color: rgba(255, 255, 255, 1);
+      margin-top: 402rpx;
+      width: 750rpx;
+      .group4 {
+        width: 627rpx;
+        height: 42rpx;
+        margin: 7rpx 0 0 61rpx;
+        .bd2 {
+          width: 42rpx;
+          height: 42rpx;
+          // background: url(/static/lanhu_wode/SketchPng96e477e8a016652304a7fac27b69d861c108a62af66b2856650ce901ea73880a.png) -5rpx -5rpx
+          //   no-repeat;
+        }
+        .icon7 {
+          width: 36rpx;
+          height: 32rpx;
+          margin-top: 5rpx;
+        }
+        .icon8 {
+          width: 40rpx;
+          height: 30rpx;
+          margin-top: 7rpx;
+        }
+        .label3 {
+          width: 32rpx;
+          height: 32rpx;
+          margin-top: 4rpx;
+        }
+      }
+      .group5 {
+        width: 630rpx;
+        height: 27rpx;
+        margin: 4rpx 0 8rpx 62rpx;
+        .info3 {
+          width: 40rpx;
+          height: 26rpx;
+          display: block;
+          overflow-wrap: break-word;
+          color: rgba(151, 151, 151, 1);
+          font-size: 20rpx;
+          white-space: nowrap;
+          line-height: 26rpx;
+          text-align: left;
+          margin-top: 1rpx;
+        }
+        .word5 {
+          width: 40rpx;
+          height: 26rpx;
+          display: block;
+          overflow-wrap: break-word;
+          color: rgba(151, 151, 151, 1);
+          font-size: 20rpx;
+          white-space: nowrap;
+          line-height: 26rpx;
+          text-align: left;
+          margin-top: 1rpx;
+        }
+        .word6 {
+          width: 40rpx;
+          height: 26rpx;
+          display: block;
+          overflow-wrap: break-word;
+          color: rgba(151, 151, 151, 1);
+          font-size: 20rpx;
+          white-space: nowrap;
+          line-height: 26rpx;
+          text-align: left;
+          margin-top: 1rpx;
+        }
+        .word7 {
+          width: 40rpx;
+          height: 26rpx;
+          display: block;
+          overflow-wrap: break-word;
+          color: rgba(39, 141, 247, 1);
+          font-size: 20rpx;
+          white-space: nowrap;
+          line-height: 26rpx;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

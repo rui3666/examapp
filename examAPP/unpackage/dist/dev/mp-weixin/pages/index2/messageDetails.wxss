@@ -1,0 +1,30 @@
+
+.uni-common-mt {
+	-webkit-margin-after: 100rpx;
+	        margin-block-end: 100rpx;
+}
+.content {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	z-index: 99;
+	background-color: #EEEEEE;
+	height: 162rpx;
+}
+.title {
+	font-size: 32rpx;
+	font-weight: bold;
+	text-align: center;
+	/*水平居中*/
+	margin: 16rpx;
+}
+.title_msg {
+	padding: 5rpx 37rpx 37rpx 37rpx;
+	font-size: 24rpx;
+}
+.title_msg .msg_date {
+	text-align: right;
+	/*水平居中*/
+	float: right;
+}
+
